@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>for checkcode test</title>
+</head>
+<body>
+    <img src="/CheckCodeExample/checkCode">
+    <script>
+        var checkcode = document.querySelector("img");
+        checkcode.onclick = function () {
+            var timestamp = new Date().getTime();
+            console.log("!1111");
+            checkcode.src= "/CheckCodeExample/checkCode?" +timestamp;
+        }
+    </script>
+</body>
+</html>

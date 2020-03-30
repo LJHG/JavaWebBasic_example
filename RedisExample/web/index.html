@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>province</title>
+    <script src="js/jquery-3.4.1.min.js"></script>
+    <script>
+        $(function () {
+            $.get("getProvinceServlet",{},function (data) {
+                $(data).each(function () {
+                    $("#provinceSelector").append("<option>"+this.name+"</option>");
+                })
+            })
+        });
+    </script>
+</head>
+<body>
+    <select id="provinceSelector">
+        <option>choose one</option>
+    </select>
+</body>
+</html>

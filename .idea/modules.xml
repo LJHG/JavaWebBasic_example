@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/CheckCodeExample/CheckCodeExample.iml" filepath="$PROJECT_DIR$/CheckCodeExample/CheckCodeExample.iml" />
+      <module fileurl="file://$PROJECT_DIR$/CookieExample/CookieExample.iml" filepath="$PROJECT_DIR$/CookieExample/CookieExample.iml" />
+      <module fileurl="file://$PROJECT_DIR$/FileDownload/FileDownload.iml" filepath="$PROJECT_DIR$/FileDownload/FileDownload.iml" />
+      <module fileurl="file://$PROJECT_DIR$/JedisTest/JedisTest.iml" filepath="$PROJECT_DIR$/JedisTest/JedisTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/LoginExample/LoginExample.iml" filepath="$PROJECT_DIR$/LoginExample/LoginExample.iml" />
+      <module fileurl="file://$PROJECT_DIR$/QueryAllInfoExample/QueryAllInfoExample.iml" filepath="$PROJECT_DIR$/QueryAllInfoExample/QueryAllInfoExample.iml" />
+      <module fileurl="file://$PROJECT_DIR$/RedisExample/RedisExample.iml" filepath="$PROJECT_DIR$/RedisExample/RedisExample.iml" />
+    </modules>
+  </component>
+</project>
